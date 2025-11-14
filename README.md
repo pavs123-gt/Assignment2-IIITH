@@ -66,7 +66,7 @@ Assignment2/
 │
 |                              
 │
-├── Assignment2.ipynb                                     # Main Jupyter/Colab notebook
+├── Untitled0.ipynb                                     # Main Jupyter/Colab notebook
 └── README.md                                              # Project documentation
 ```
 
