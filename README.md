@@ -41,6 +41,69 @@ Assignment2/
 └── README.md                                              # Project documentation
 ```
 
+---
+
+## 🚀 Model Architecture
+The final model uses:
+
+- **Embedding dimension:** 200  
+- **Hidden size:** 400  
+- **Layers:** 2 LSTM layers  
+- **Dropout:** 0.3  
+- **Loss:** CrossEntropyLoss  
+- **Optimizer:** Adam  
+- **Batch size:** 64  
+- **Sequence length:** 40 tokens  
+
+---
+
+## 📊 Results
+
+### **✔ Main Model**
+- **Validation Loss:** (value shown in notebook)  
+- **Validation Perplexity:** (value shown in notebook)
+
+### **✔ Underfitting Model**
+- Small LSTM (embed=50, hidden=64, layers=1)
+- High training & validation loss
+- No learning → as expected
+
+### **✔ Overfitting Model**
+- Large LSTM (embed=300, hidden=600, layers=3)
+- Training loss decreases fast
+- Validation loss increases → overfitting detected
+
+Loss curves for both experiments are included in:
+
+---
+
+## 📈 Loss Curves
+- **Underfitting:** Slow/no learning  
+- **Overfitting:** Training improves but validation worsens  
+(Plots uploaded in outputs/ folder)
+
+---
+
+## 🧪 Evaluation
+The final LSTM model was evaluated on a held-out **test split**, and perplexity is reported in the notebook.
+
+---
+
+## 📌 Files Included
+- `Assignment2.ipynb` — Full implementation  
+- `best_model.pt` — Saved best model (lowest validation loss)  
+- `underfit_loss.png` — Underfitting plot  
+- `overfit_loss.png` — Overfitting plot  
+- Processed dataset files (`train.pt`, `val.pt`, `test.pt`, `itos.json`)
+
+---
+
+## ✔ Status
+**All tasks from the assignment are completed successfully.**  
+The repository contains the full solution along with results and model weights.
+
+
+
 
 
 
