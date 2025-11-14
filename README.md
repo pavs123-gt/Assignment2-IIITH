@@ -412,85 +412,106 @@ LSTMs are effective for language modeling because they:
 This architecture forms the foundation of the training and generation modules used in the project.
 
 
+##  Download Links
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 🚀 Model Architecture
-The final model uses:
-
-- **Embedding dimension:** 200  
-- **Hidden size:** 400  
-- **Layers:** 2 LSTM layers  
-- **Dropout:** 0.3  
-- **Loss:** CrossEntropyLoss  
-- **Optimizer:** Adam  
-- **Batch size:** 64  
-- **Sequence length:** 40 tokens  
+This project requires several files for **training**, **evaluation**, and **inference**.  
+You can download all necessary resources from the links below.
 
 ---
 
-## 📊 Results
+### 🔹 1. Dataset  
+Download the original text dataset:
 
-### **✔ Main Model**
-- **Validation Loss:** (value shown in notebook)  
-- **Validation Perplexity:** (value shown in notebook)
+👉 **Pride and Prejudice – Jane Austen**  
+🔗 *[Download Dataset](YOUR_DATASET_LINK_HERE)*
 
-### **✔ Underfitting Model**
-- Small LSTM (embed=50, hidden=64, layers=1)
-- High training & validation loss
-- No learning → as expected
+Place the file in:
 
-### **✔ Overfitting Model**
-- Large LSTM (embed=300, hidden=600, layers=3)
-- Training loss decreases fast
-- Validation loss increases → overfitting detected
-
-Loss curves for both experiments are included in:
+```
+data/raw/Pride_and_Prejudice-Jane_Austen.txt
+```
 
 ---
 
-## 📈 Loss Curves
-- **Underfitting:** Slow/no learning  
-- **Overfitting:** Training improves but validation worsens  
-(Plots uploaded in outputs/ folder)
+### 🔹 2. Trained Model  
+Download the trained LSTM model:
+
+👉 **best_model.pt**  
+🔗 *[Download Trained Model](YOUR_MODEL_LINK_HERE)*
+
+Save it in:
+
+```
+outputs/best_model.pt
+```
 
 ---
 
-## 🧪 Evaluation
-The final LSTM model was evaluated on a held-out **test split**, and perplexity is reported in the notebook.
+### 🔹 3. Vocabulary File  
+Token-to-word mapping:
+
+👉 **itos.json**  
+🔗 *[Download Vocabulary File](YOUR_ITOS_LINK_HERE)*
+
+Save in:
+
+```
+data/processed/itos.json
+```
 
 ---
 
-## 📌 Files Included
-- `Assignment2.ipynb` — Full implementation  
-- `best_model.pt` — Saved best model (lowest validation loss)  
-- `underfit_loss.png` — Underfitting plot  
-- `overfit_loss.png` — Overfitting plot  
-- Processed dataset files (`train.pt`, `val.pt`, `test.pt`, `itos.json`)
+### 🔹 4. Preprocessed Data (Optional)
+If you want to skip preprocessing:
+
+👉 **train.pt, val.pt, test.pt**  
+🔗 *[Download Preprocessed Files](YOUR_PREPROCESSED_LINK_HERE)*
+
+Place them in:
+
+```
+data/processed/
+```
 
 ---
 
-## ✔ Status
-**All tasks from the assignment are completed successfully.**  
-The repository contains the full solution along with results and model weights.
+### 🔹 5. Loss Curves (Optional)
+Underfitting and overfitting experiment results:
+
+👉 **Loss Curve Images:**  
+- 🔗 *[underfit_loss.png](YOUR_UNDERFIT_LINK_HERE)*  
+- 🔗 *[overfit_loss.png](YOUR_OVERFIT_LINK_HERE)*  
+
+Save into:
+
+```
+outputs/
+```
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
