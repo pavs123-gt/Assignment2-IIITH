@@ -98,7 +98,7 @@ git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 ```
 
-Replace `<your-username>` and `<repo-name>` with your actual GitHub details.
+
 
 ---
 
@@ -142,7 +142,6 @@ data/processed/itos.json
 
 
 ```
----
 
 
 
