@@ -12,7 +12,8 @@ A complete implementation of a **word-level LSTM Language Model** trained on
 - [Setup & Installation](#setup--installation)
 - [Preprocessing](#preprocessing)
 - [Training](#training)
-- [Evaluation & Inference](#evaluation--inference)
+- [Evaluation](#evaluation)
+- [Inference](#inference)
 - [Results](#results)
 - [Model Architecture](#model-architecture)
 - [Download Links](#download-links)
@@ -233,10 +234,9 @@ This script will:
 - Compute:
   - Test Loss
   - Test Perplexity
+A lower perplexity indicates a better language model
 
 
-
-```
 ---
 ```
 A lower perplexity indicates a better language model.  
