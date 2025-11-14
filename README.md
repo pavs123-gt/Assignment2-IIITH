@@ -285,7 +285,7 @@ A small model (low embedding size, hidden size, and fewer layers) was trained to
 
 **Loss Curve:**
 
-![Underfit Loss](outputs/underfit_loss.png)
+![Underfit Loss](https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/underfit.png?raw=true)
 
 ---
 
