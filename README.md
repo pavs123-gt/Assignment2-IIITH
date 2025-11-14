@@ -470,7 +470,7 @@ data/processed/itos.json
 https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/data/processed/test.pt
 
 👉 itos.json  
-https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/data/processed/itos.json
+https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/itos.json
 
 
 
