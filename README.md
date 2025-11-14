@@ -490,7 +490,7 @@ Underfitting and overfitting experiment results:
 
 Example text produced by the trained LSTM model.
 
-📄 [Click here to view generated text](generated_text.txt)
+📄 [Click here to view generated text](https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/generated_text.txt)
 
 
 
