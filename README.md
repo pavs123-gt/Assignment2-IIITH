@@ -257,7 +257,6 @@ Arguments:
 | `--length` | Number of words to generate |
 
 
-```
 ---
 ## Required Files for Inference
 
