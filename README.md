@@ -258,22 +258,20 @@ Arguments:
 
 
 ```
+---
+## Required Files for Inference
 
+Ensure the following files exist before running text generation:
 
-##  Required Files for Inference
-
-Ensure the following exist:
-
-``` bash
+```bash
 outputs/best_model.pt
-data/processed/itos.json        # Vocabulary mapping
+data/processed/itos.json     # Vocabulary mapping
 ```
 
-Without these, generation will not work.
+Without these files, inference will not work.
+
 
 ---
-
-
 
 
 
