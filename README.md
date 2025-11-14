@@ -64,10 +64,7 @@ Assignment2/
 │       ├── test.pt                                       # Test samples
 │       └── itos.json                                     # Vocabulary (index → token)
 │
-├── outputs/
-│   ├── best_model.pt                                     # Saved trained LSTM model
-│   ├── underfit_loss.png                                 # Underfitting loss curve
-│   └── overfit_loss.png                                  # Overfitting loss curve
+|                              
 │
 ├── Assignment2.ipynb                                     # Main Jupyter/Colab notebook
 └── README.md                                              # Project documentation
