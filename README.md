@@ -246,7 +246,7 @@ Once the model is trained, you can generate text using the inference script.
 Run:
 
 ```bash
-python src/generate.py --prompt "It is a truth universally acknowledged" --length 50
+python src/generate.py --prompt 
 ```
 
 Arguments:
