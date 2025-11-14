@@ -299,7 +299,7 @@ A larger LSTM model (higher embedding size, hidden dimension, more layers, dropo
 
 **Loss Curve:**
 
-![Overfit Loss](outputs/overfit_loss.png)
+![Overfit Loss](https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/overfit.png?raw=true)
 
 ---
 
