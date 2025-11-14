@@ -1,4 +1,4 @@
-# 📘 Assignment 2 – LSTM Language Model (IIIT Hyderabad)
+#  Assignment 2 – LSTM Language Model (IIIT Hyderabad)
 
 A complete implementation of a **word-level LSTM Language Model** trained on  
 *“Pride and Prejudice – Jane Austen”* as part of **IIIT Hyderabad Assignment 2**.
@@ -327,7 +327,7 @@ Below is an example of text generated using the trained model:
 
 ---
 
-## 📝 Summary
+##  Summary
 
 - The underfitting model lacked learning capacity.  
 - The overfitting model memorized but did not generalize well.  
@@ -491,6 +491,11 @@ Underfitting and overfitting experiment results:
 Example text produced by the trained LSTM model.
 
 📄 [Click here to view generated text](https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/generated_text.txt)
+---
+##  Author
+**Pavani Linguberi**  
+Student, IIIT Srikakulam 
+Email: linguberipavani3@gmail.com
 
 
 
