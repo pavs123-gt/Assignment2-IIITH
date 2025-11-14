@@ -239,7 +239,7 @@ A lower perplexity indicates a better language model
 
 ---
 
-##  Inference (Text Generation)
+## Inference (Text Generation)
 
 Once the model is trained, you can generate text using the inference script.
 
@@ -495,6 +495,7 @@ Example text produced by the trained LSTM model.
 ##  Author
 **Pavani Linguberi**  
 Student, IIIT Srikakulam 
+
 Email: linguberipavani3@gmail.com
 
 
