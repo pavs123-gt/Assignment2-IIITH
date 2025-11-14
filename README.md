@@ -17,9 +17,9 @@ The project includes:
 - Model training and perplexity evaluation
 
 ---
-
 ## 📂 Project Structure
 
+```
 Assignment2/
 │
 ├── data/
@@ -35,9 +35,13 @@ Assignment2/
 ├── outputs/
 │   ├── best_model.pt                                     # Saved trained LSTM model
 │   ├── underfit_loss.png                                 # Underfitting loss curve
-│   └── overfit_loss.png                                   # Overfitting loss curve
+│   └── overfit_loss.png                                  # Overfitting loss curve
 │
 ├── Assignment2.ipynb                                     # Main Jupyter/Colab notebook
 └── README.md                                              # Project documentation
+```
+
+
+
 
 
