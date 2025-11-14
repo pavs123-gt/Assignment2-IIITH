@@ -423,7 +423,7 @@ You can download all necessary resources from the links below.
 Download the original text dataset:
 
 👉 **Pride and Prejudice – Jane Austen**  
-🔗 *[Download Dataset](YOUR_DATASET_LINK_HERE)*
+🔗 *[Download Dataset](https://github.com/pavs123-gt/Assignment2-IIITH/commit/0a7ca9c62e989b9f8dc69e189d577a111b703aea)*
 
 Place the file in:
 
