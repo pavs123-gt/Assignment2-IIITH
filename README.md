@@ -139,6 +139,95 @@ data/processed/itos.json
 
 ---
 
+##  Training 
+
+After preprocessing is completed and the processed files are available in `data/processed/`, you can start training the model.
+
+---
+
+### 1️ Run the Training Script
+
+To train the LSTM model:
+
+```bash
+python src/train.py
+```
+
+This will:
+
+- Load the processed dataset (train/val/test)
+- Build the LSTM model
+- Train for the configured number of epochs
+- Save the **best performing model** automatically as:
+
+```
+outputs/best_model.pt
+```
+
+---
+
+### 2️ Training Outputs
+
+During training, the following files will be generated inside the `outputs/` folder:
+
+```
+best_model.pt          → Best saved LSTM model
+underfit_loss.png      → Loss curve for underfitting experiment
+overfit_loss.png       → Loss curve for overfitting experiment
+```
+
+You may also print:
+
+- Train loss per epoch  
+- Validation loss per epoch  
+- Perplexity score  
+
+These logs will appear automatically in the terminal or Colab output.
+
+---
+
+### 3️ Changing Training Hyperparameters (Optional)
+
+You can modify training settings inside **src/train.py**, such as:
+
+```python
+epochs = 10
+batch_size = 64
+embed_dim = 200
+hidden_dim = 400
+learning_rate = 0.001
+```
+
+Increasing epochs → better accuracy but slower  
+Increasing hidden_dim → bigger model, better performance  
+Decreasing batch size → slower but more stable updates  
+
+---
+
+### 4️ GPU Training (Optional but Recommended)
+
+If running in Google Colab:
+
+1. Go to **Runtime → Change runtime type**
+2. Select **GPU**
+3. Run training again
+
+GPU training is **10x faster** than CPU.
+
+---
+
+### 5️ Training Completion
+
+When the training finishes, you will see output like:
+
+```
+Epoch X | Train Loss: ... | Val Loss: ... | Perplexity: ...
+Saved new best model!
+```
+
+You can now move to **evaluation and text generation**.
+
+---
 
 
 ```
