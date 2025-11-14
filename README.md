@@ -451,7 +451,7 @@ outputs/best_model.pt
 Token-to-word mapping:
 
 👉 **itos.json**  
-🔗 *[Download Vocabulary File](YOUR_ITOS_LINK_HERE)*
+🔗 *[Download Vocabulary File](https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/itos.json)*
 
 Save in:
 
