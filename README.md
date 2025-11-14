@@ -239,7 +239,7 @@ A lower perplexity indicates a better language model
 
 ---
 
-## Inference (Text Generation)
+## Inference 
 
 Once the model is trained, you can generate text using the inference script.
 
