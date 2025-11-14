@@ -191,36 +191,24 @@ These logs will appear automatically in the terminal or Colab output.
 You can modify training settings inside **src/train.py**, such as:
 
 ```python
-epochs = 10
+epochs = 3
 batch_size = 64
 embed_dim = 200
 hidden_dim = 400
 learning_rate = 0.001
 ```
 
-Increasing epochs → better accuracy but slower  
-Increasing hidden_dim → bigger model, better performance  
-Decreasing batch size → slower but more stable updates  
+  
+
+
 
 ---
 
-### 4️ GPU Training (Optional but Recommended)
-
-If running in Google Colab:
-
-1. Go to **Runtime → Change runtime type**
-2. Select **GPU**
-3. Run training again
-
-GPU training is **10x faster** than CPU.
-
----
-
-### 5️ Training Completion
+### 4 Training Completion
 
 When the training finishes, you will see output like:
 
-```
+``` bash
 Epoch X | Train Loss: ... | Val Loss: ... | Perplexity: ...
 Saved new best model!
 ```
@@ -249,8 +237,8 @@ This script will:
 
 
 ```
-
-
+---
+```
 A lower perplexity indicates a better language model.  
 
 
@@ -284,7 +272,7 @@ Arguments:
 
 Ensure the following exist:
 
-```
+``` bash
 outputs/best_model.pt
 data/processed/itos.json        # Vocabulary mapping
 ```
