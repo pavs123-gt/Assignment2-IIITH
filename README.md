@@ -460,19 +460,20 @@ data/processed/itos.json
 ```
 
 ---
-### 🔹 4. Preprocessed Data (train.pt, val.pt, test.pt, itos.json):  
-https://github.com/pavs123-gt/Assignment2-IIITH/tree/main/data/processed
+### 🔹 4. Preprocessed Data (train.pt, val.pt, test.pt, itos.json): 
 
-### 🔹 4. Preprocessed Data (Optional)
-If you want to skip preprocessing:
 
-👉 **train.pt, val.pt, test.pt**  
-🔗 *[Download Preprocessed Files](YOUR_PREPROCESSED_LINK_HERE)*
+👉 val.pt  
 
-Place them in:
 
-```
-data/processed/
+👉 test.pt  
+https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/data/processed/test.pt
+
+👉 itos.json  
+https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/data/processed/itos.json
+
+
+
 ```
 
 ---
