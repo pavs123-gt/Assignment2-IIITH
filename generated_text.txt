@@ -1,0 +1,11 @@
+##  Generated Text (Example Output)
+
+Using the trained LSTM model, here is an example of generated text:
+
+**Prompt:** `"elizabeth was"`
+
+**Generated Output:**
+
+elizabeth was busy acutely, acutely, saving. congratulatory nieces, distinguished
+husbands delight. included contemplation begin? description, friendly disrespect...
+
