@@ -464,14 +464,15 @@ data/processed/itos.json
 
 
 👉 val.pt  
-https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/val.pt
+https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/data/processed/val.pt
 
 👉 test.pt  
-https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/test.pt
+https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/data/processed/test.pt
 
 👉 itos.json  
-https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/itos.json
-```
+https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/data/processed/itos.json
+
+
 ---
 ### 🔹 5. Loss Curves :
 Underfitting and overfitting experiment results:
