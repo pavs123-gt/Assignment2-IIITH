@@ -73,27 +73,73 @@ Assignment2/
 ```
 
 ---
-#  Setup & Installation
 
-Follow the steps below to run this project on any system.
+
+##  Setup & Installation
+
+Follow the steps below to set up and run the project.
 
 ---
 
-## 1️ Install Dependencies
-Make sure Python 3.8+ is installed.
+### 1️ Install Dependencies
+
+Make sure Python **3.8+** is installed.
 
 ```bash
 pip install -r requirements.txt
+```
+
 ---
-##Download or Clone the Repository
-``bash 
+
+### 2️ Download or Clone the Repository
+
+```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 ```
+
+Replace `<your-username>` and `<repo-name>` with your actual GitHub details.
+
 ---
-##Add the Dataset
-``bash
+
+### 3️ Add the Dataset
+
+Place the dataset file:
+
+```
 Pride_and_Prejudice-Jane_Austen.txt
+```
+
+inside:
+
+```
+data/raw/
+```
+
+(Create the folder if it does not exist.)
+
+---
+
+###  Preprocessing
+
+Run the preprocessing script to generate vocabulary and dataset splits:
+
+```bash
+python src/preprocess.py
+```
+
+This will create:
+
+```
+data/processed/train.pt
+data/processed/val.pt
+data/processed/test.pt
+data/processed/itos.json
+```
+
+---
+
+
 
 ```
 ---
