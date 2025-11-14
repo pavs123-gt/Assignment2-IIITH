@@ -473,7 +473,6 @@ https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/test.pt
 https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/itos.json
 ```
 
----
 ### 🔹 5. Loss Curves (Optional)
 Underfitting and overfitting experiment results:
 
