@@ -84,17 +84,19 @@ Make sure Python 3.8+ is installed.
 
 ```bash
 pip install -r requirements.txt
-
+---
 ##Download or Clone the Repository
 ``bash 
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 ```
+---
 ##Add the Dataset
 ``bash
 Pride_and_Prejudice-Jane_Austen.txt
 
 ```
+---
 
 
 
