@@ -272,7 +272,7 @@ Without these files, inference will not work.
 
 After training the LSTM Language Model on the *Pride and Prejudice* dataset, the following results were obtained.
 
-### ✔️ Underfitting Experiment
+###  Underfitting Experiment
 A small model (low embedding size, hidden size, and fewer layers) was trained to **intentionally underfit** the dataset.
 
 **Observed behavior:**
@@ -286,7 +286,7 @@ A small model (low embedding size, hidden size, and fewer layers) was trained to
 
 ---
 
-### ✔️ Overfitting Experiment
+###  Overfitting Experiment
 A larger LSTM model (higher embedding size, hidden dimension, more layers, dropout disabled) was trained to **intentionally overfit**.
 
 **Observed behavior:**
@@ -300,7 +300,7 @@ A larger LSTM model (higher embedding size, hidden dimension, more layers, dropo
 
 ---
 
-### ✔️ Perplexity Scores
+###  Perplexity Scores
 
 | Model Type      | Train Perplexity | Validation Perplexity |
 |-----------------|------------------|------------------------|
@@ -312,7 +312,7 @@ Lower perplexity → better language modeling.
 
 ---
 
-### ✔️ Sample Generated Text
+###  Sample Generated Text
 
 Below is an example of text generated using the trained model:
 
