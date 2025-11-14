@@ -486,16 +486,12 @@ Underfitting and overfitting experiment results:
 - 🔗 *[overfit_loss.png](https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/overfit.png?raw=true)
 ```
 ---
-##  Generated Text (Example Output)
+## Generated Text
 
-Using the trained LSTM model, here is an example of generated text:
+Example text produced by the trained LSTM model.
 
-**Prompt:** `"elizabeth was"`
+📄 [Click here to view generated text](generated_text.txt)
 
-**Generated Output:**
-
-elizabeth was busy acutely, acutely, saving. congratulatory nieces, distinguished
-husbands delight. included contemplation begin? description, friendly disrespect...
 
 
 
