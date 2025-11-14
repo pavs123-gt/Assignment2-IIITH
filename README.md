@@ -238,11 +238,6 @@ A lower perplexity indicates a better language model
 
 
 ---
-```
-A lower perplexity indicates a better language model.  
-
-
----
 
 ##  Inference (Text Generation)
 
@@ -263,9 +258,6 @@ Arguments:
 
 
 ```
-
-
-
 ---
 
 ##  Required Files for Inference
@@ -282,7 +274,7 @@ Without these, generation will not work.
 ---
 
 
-```
+
 
 
 
