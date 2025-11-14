@@ -485,6 +485,18 @@ Underfitting and overfitting experiment results:
 ```bash
 - 🔗 *[overfit_loss.png](https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/overfit.png?raw=true)
 ```
+---
+##  Generated Text (Example Output)
+
+Using the trained LSTM model, here is an example of generated text:
+
+**Prompt:** `"elizabeth was"`
+
+**Generated Output:**
+
+elizabeth was busy acutely, acutely, saving. congratulatory nieces, distinguished
+husbands delight. included contemplation begin? description, friendly disrespect...
+
 
 
 
