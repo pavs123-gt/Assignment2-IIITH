@@ -472,9 +472,9 @@ https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/test.pt
 👉 itos.json  
 https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/itos.json
 
-
-
 ```
+
+
 
 ---
 
@@ -482,8 +482,10 @@ https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/itos.json
 Underfitting and overfitting experiment results:
 
 👉 **Loss Curve Images:**  
-- 🔗 *[underfit_loss.png](YOUR_UNDERFIT_LINK_HERE)*  
-- 🔗 *[overfit_loss.png](YOUR_OVERFIT_LINK_HERE)*  
+- 🔗 *[underfit_loss.png](https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/underfit.png?raw=true)
+*  
+- 🔗 *[overfit_loss.png](https://github.com/pavs123-gt/Assignment2-IIITH/blob/main/overfit.png?raw=true)
+*  
 
 Save into:
 
