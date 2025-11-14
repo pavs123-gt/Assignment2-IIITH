@@ -437,13 +437,7 @@ data/raw/Pride_and_Prejudice-Jane_Austen.txt
 Download the trained LSTM model:
 
 👉 **best_model.pt**  
-🔗 *[Download Trained Model](YOUR_MODEL_LINK_HERE)*
-
-Save it in:
-
-```
-outputs/best_model.pt
-```
+🔗 *[Download Trained Model](YOUR_MODEL_LINK_HERe)
 
 ---
 
