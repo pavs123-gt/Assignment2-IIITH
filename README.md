@@ -16,8 +16,8 @@ A complete implementation of a **word-level LSTM Language Model** trained on
 - [Inference](#inference)
 - [Results](#results)
 - [Model Architecture](#model-architecture)
-- [Download Links](#download-links)
-- [Extra Credit Work](#extra-credit-work)
+- 
+- 
 - [Author](#author)
 
 ---
