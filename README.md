@@ -1,23 +1,54 @@
+# 📘 Assignment 2 – LSTM Language Model (IIIT Hyderabad)
 
-# Assignment 2 – LSTM Language Model (IIIT Hyderabad)
-
-This repository contains my complete implementation for **Assignment 2: Statistical Language Modeling using LSTM Networks**.
-
-## 📌 Overview
-In this assignment, I built a word-level language model using a multi-layer LSTM. The model is trained on the text **“Pride and Prejudice – Jane Austen”**, and it learns to predict the next word in a sequence.
-
-The project includes:
-- Text preprocessing and vocabulary creation
-- Sequence generation using a sliding window
-- Train/validation/test split
-- Custom PyTorch Dataset and DataLoader
-- LSTM Language Model implementation
-- Underfitting and overfitting experiments
-- Loss curves for both experiments
-- Model training and perplexity evaluation
+A complete implementation of a **word-level LSTM Language Model** trained on  
+*“Pride and Prejudice – Jane Austen”* as part of **IIIT Hyderabad Assignment 2**.
 
 ---
-## 📂 Project Structure
+
+# 📑 Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Project Structure](#project-structure)
+- [Setup & Installation](#setup--installation)
+- [Preprocessing](#preprocessing)
+- [Training](#training)
+- [Evaluation & Inference](#evaluation--inference)
+- [Results](#results)
+- [Model Architecture](#model-architecture)
+- [Download Links](#download-links)
+- [Extra Credit Work](#extra-credit-work)
+- [Author](#author)
+
+---
+
+#  Overview
+This project builds a **statistical language model** using a multi-layer LSTM.  
+The goal is next-word prediction based on a fixed sequence length.
+
+The workflow includes:
+
+- Text preprocessing  
+- Vocabulary construction  
+- Sequence generation using sliding window  
+- Train/val/test dataset creation  
+- Custom PyTorch `Dataset` + `DataLoader`  
+- LSTM network for language modeling  
+- Underfitting & Overfitting experiments  
+- Loss curve visualization  
+- Perplexity evaluation  
+
+---
+
+#  Dataset
+The dataset is provided by IIIT Hyderabad:
+
+**`Pride_and_Prejudice-Jane_Austen.txt`**
+
+Located in:
+
+
+---
+##  Project Structure
 
 ```
 Assignment2/
@@ -42,6 +73,45 @@ Assignment2/
 ```
 
 ---
+#  Setup & Installation
+
+Follow the steps below to run this project on any system.
+
+---
+
+## 1️ Install Dependencies
+Make sure Python 3.8+ is installed.
+
+```bash
+pip install -r requirements.txt
+
+##Download or Clone the Repository
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+##Add the Dataset
+Pride_and_Prejudice-Jane_Austen.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🚀 Model Architecture
 The final model uses:
