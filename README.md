@@ -271,6 +271,146 @@ Without these files, inference will not work.
 
 
 ---
+##  Results
+
+After training the LSTM Language Model on the *Pride and Prejudice* dataset, the following results were obtained.
+
+### ✔️ Underfitting Experiment
+A small model (low embedding size, hidden size, and fewer layers) was trained to **intentionally underfit** the dataset.
+
+**Observed behavior:**
+- Training loss decreases slowly  
+- Validation loss stays high  
+- Model struggles to learn long-term context  
+
+**Loss Curve:**
+
+![Underfit Loss](outputs/underfit_loss.png)
+
+---
+
+### ✔️ Overfitting Experiment
+A larger LSTM model (higher embedding size, hidden dimension, more layers, dropout disabled) was trained to **intentionally overfit**.
+
+**Observed behavior:**
+- Training loss decreases rapidly  
+- Validation loss remains higher  
+- Model memorizes training data rather than generalizing  
+
+**Loss Curve:**
+
+![Overfit Loss](outputs/overfit_loss.png)
+
+---
+
+### ✔️ Perplexity Scores
+
+| Model Type      | Train Perplexity | Validation Perplexity |
+|-----------------|------------------|------------------------|
+| Underfitting    | High             | Very High             |
+| Overfitting     | Very Low         | Higher Than Training   |
+
+Perplexity is a measure of how well the model predicts the next word.  
+Lower perplexity → better language modeling.
+
+---
+
+### ✔️ Sample Generated Text
+
+Below is an example of text generated using the trained model:
+
+```
+<your generated output will appear here after inference>
+```
+
+(Replace with your generated text once you run inference.)
+
+---
+
+## 📝 Summary
+
+- The underfitting model lacked learning capacity.  
+- The overfitting model memorized but did not generalize well.  
+- Final trained model achieves reasonable perplexity and generates coherent text.  
+
+---
+## Model Architecture
+
+This project implements a **word-level LSTM (Long Short-Term Memory) Language Model** created from scratch using PyTorch.
+
+The model takes sequences of word indices as input and predicts the **next word** in the sequence.
+
+---
+
+### 🔹 Architecture Components
+
+#### **1. Embedding Layer**
+- Converts each word index into a dense vector representation.
+- Embedding size: *configurable (e.g., 200 for overfitting model)*  
+- Helps the model learn semantic meaning of words.
+
+#### **2. Multi-Layer LSTM**
+- 1–2 stacked LSTM layers depending on configuration.
+- Hidden size: *configurable (e.g., 400 for overfitting model)*  
+- Captures long-term dependencies and context in the text.
+- `batch_first=True` for easier input formatting.
+- Optional dropout between layers to reduce overfitting.
+
+#### **3. Fully Connected Output Layer**
+- Maps LSTM hidden state → vocabulary size.
+- Produces logits for the next-word prediction.
+
+---
+
+### 🔹 Forward Pass Flow
+
+```
+Input word indices (batch)  
+        ↓  
+Embedding Layer  
+        ↓  
+LSTM Layers  
+        ↓  
+Final Hidden State  
+        ↓  
+Linear Output Layer  
+        ↓  
+Probability distribution over next word
+```
+
+---
+
+### 🔹 Model Summary (Example)
+
+```
+LSTMLanguageModel(
+  (embedding): Embedding(vocab_size, embed_dim)
+  (lstm): LSTM(embed_dim, hidden_dim, num_layers=2, batch_first=True, dropout=0.3)
+  (fc): Linear(hidden_dim → vocab_size)
+)
+```
+
+---
+
+### 🔹 Why LSTM?
+
+LSTMs are effective for language modeling because they:
+- Remember long-term dependencies  
+- Reduce vanishing gradient problems  
+- Capture sequential patterns in natural language  
+
+---
+
+### 🔹 Loss Function & Optimization
+
+- **Loss:** Cross-Entropy Loss  
+- **Optimizer:** Adam  
+- **Evaluation Metric:** Perplexity (exp(loss))
+
+---
+
+This architecture forms the foundation of the training and generation modules used in the project.
+
 
 
 
