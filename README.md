@@ -228,6 +228,70 @@ Saved new best model!
 You can now move to **evaluation and text generation**.
 
 ---
+## Evaluation
+
+After training is completed and `best_model.pt` is generated, you can evaluate the model's performance using perplexity.
+
+Run:
+
+```bash
+python src/evaluate.py
+```
+
+This script will:
+
+- Load the saved model (`outputs/best_model.pt`)
+- Load the test dataset (`data/processed/test.pt`)
+- Compute:
+  - Test Loss
+  - Test Perplexity
+
+
+
+```
+
+
+A lower perplexity indicates a better language model.  
+
+
+---
+
+##  Inference (Text Generation)
+
+Once the model is trained, you can generate text using the inference script.
+
+Run:
+
+```bash
+python src/generate.py --prompt "It is a truth universally acknowledged" --length 50
+```
+
+Arguments:
+
+| Argument | Description |
+|---------|-------------|
+| `--prompt` | Starting text for generation |
+| `--length` | Number of words to generate |
+
+
+```
+
+
+
+---
+
+##  Required Files for Inference
+
+Ensure the following exist:
+
+```
+outputs/best_model.pt
+data/processed/itos.json        # Vocabulary mapping
+```
+
+Without these, generation will not work.
+
+---
 
 
 ```
